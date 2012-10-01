@@ -1,0 +1,12 @@
+name = d7pf_pp_links_right
+description = PP with links on the right
+core = 7.x
+package = D7 Upgrade
+dependencies[] = ctools
+dependencies[] = page_manager
+dependencies[] = panels
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = panels:layouts:1
+features[features_api][] = api:1
+features[page_manager_pages][] = d7pf_pp_links_right
+features[panels_layout][] = pp_links_right
