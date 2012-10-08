@@ -208,7 +208,10 @@ function d7pf_pp_links_right_default_page_manager_pages() {
       'settings' => NULL,
       'style' => 'stylizer:clone_of_blue_back',
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'pplinksclass',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
